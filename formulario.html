@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario sobre cafe</title>
+</head>
+<body class="fundo">
+    
+    
+    <center> <h2>Pesquisa de satisfação do Café Starbuzz</h2> </center>
+    
+    <form action="">
+
+        <ol>
+            <fieldset>
+                <ul><p>Você é cliente ou funcionario ?</p></ul>
+                <input type="checkbox" name="" id=""> Cliente <br>
+                <input type="checkbox" name="" id=""> Funcionario <br>
+                <input type="checkbox" name="" id=""> Manutenção <br>
+                <input type="checkbox" name="" id=""> Nenhuma das Alternativas <br>
+            </fieldset> <br>
+
+            <fieldset>
+        <ul><p>Qual dos cafés abaixo são o seu favorito?</p> </ul>
+
+        <input type="checkbox" name="" id=""> Café Arábica <br>
+        <input type="checkbox" name="" id=""> Café Bourbon <br> 
+        <input type="checkbox" name="" id=""> Café Acaiá <br>
+        <input type="checkbox" name="" id=""> Café Catuaí <br>
+        <input type="checkbox" name="" id=""> Café Robusta <br>
+        <input type="checkbox" name="" id=""> Café Geisha <br> 
+        <input type="checkbox" name="" id=""> Café Kona 
+            </fieldset> <br>
+
+            <fieldset>
+        <ul> <p>Dos cafés da casa, qual é o seu preferido?</p> </ul>
+        <input type="checkbox" name="" id=""> Mistura da Casa <br>
+        <input type="checkbox" name="" id=""> Café arábico com leite <br>
+        <input type="checkbox" name="" id=""> Cappuccino <br>
+        <input type="checkbox" name="" id=""> Chá <br>
+            </fieldset> <br>
+
+
+            <fieldset>
+        <p> Caso queira deixar um feedback sobre a nossa casa, pode escrever na caixa abaixo:</p>
+        <textarea name="textousuario" id="" width="100000000px"></textarea>
+            </fieldset>
+
+        <br><br> <input type="submit" value="Enviar respostas" onclick="msg()">
+
+        </ol>
+    </form> 
+
+        <script>
+            function msg() {
+                alert("Obrigado pela a sua resposta! Ela será usada para melhorarmos os nossos produtos e suas preferencias. ")
+            }
+        </script>
+
+<style>
+    .fundo{
+        background-color: rgb(228, 205, 243);
+    }
+
+    body{
+        color: green;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+</style>
+
+</body>
+</html>
